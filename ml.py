@@ -70,7 +70,7 @@ def predict_appliance_energy_consumption(hu_build_out, Windspeed, Tdewpoint, mon
 
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser("Grounded SAM demo", add_help=True)
+    parser = argparse.ArgumentParser("Applicances Energy Prediction", add_help=True)
     parser.add_argument("--debug", action="store_true", help="using debug mode")
     parser.add_argument("--share", action="store_true", help="share the app")
     args = parser.parse_args()
